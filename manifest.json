@@ -1,0 +1,25 @@
+{
+  "name": "Twitter Hide Annoying Stuff",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Removes the stuff I don't like from Twitter",
+  "web_accessible_resources" : [
+    "hideElements.css"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*",
+        "https://www.twitter.com/*"
+      ],
+      "css" : [
+        "hideElements.css"
+      ],
+      "js": [
+        "execute.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}
