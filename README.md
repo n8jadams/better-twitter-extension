@@ -8,7 +8,7 @@ A browser extension that removes the Trending section from Twitter. Break free f
 4. Navigate to `chrome://extensions` in the Chrome address bar
 5. In the top right corner, there's a switch for `Developer mode`. Activate that switch.
 6. Drag and Drop that unzipped folder onto the screen of Chrome.
-7. You'll see the `Better Twitter Exstension` plugin. Activate it and navigate to Facebook.
+7. You'll see the `Better Twitter Exstension` plugin. Activate it and navigate to Twitter.
 
 ## Installation on Firefox:
 1. Follow steps 1-3 on the Installation on Chrome steps
