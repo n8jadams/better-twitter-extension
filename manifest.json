@@ -1,11 +1,13 @@
 {
   "name": "Better Twitter Extension",
-  "version": "1.0.0",
-  "manifest_version": 2,
+  "version": "1.1.0",
+  "manifest_version": 3,
   "description": "Removes the stuff I don't like from Twitter",
-  "web_accessible_resources" : [
-    "hideElements.css"
-  ],
+  "web_accessible_resources": [{
+    "resources": ["hideElements.css"],
+    "matches": [],
+    "extension_ids": []
+  }],
   "content_scripts": [
     {
       "matches": [
